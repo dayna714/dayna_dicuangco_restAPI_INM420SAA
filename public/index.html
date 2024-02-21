@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Urban Dictionary API Assignment</title>
+
+     <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+<body>
+    <section class="imageContainer">
+        <img class="UD-cover" src="/assets/images/urban_dictionary_coverpic.jpg" alt="Urban Dictionary cover photo">
+        <div class="overlay"></div>
+    </section>
+
+    <section class="searchContainer">
+        <input type="text" id="searchInput" placeholder="Type a word to search...">
+        <button id="searchButton">Search</button>
+    </section>
+
+    <section class="term-result-container">
+        <div id="termResult"></div>
+    </section>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
